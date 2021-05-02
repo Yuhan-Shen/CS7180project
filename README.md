@@ -4,6 +4,10 @@ This repository contains the code for the CS7180 course project: Action Segmenta
 
 The data is available on raptor on /mnt/raptor/yuhan/Breakfast_per_task. It can be accessed via Cygnus server.
 
+The environment can be installed via anaconda:
+```
+conda create --name <env> --file requirements.txt
+```
 To train the model, please run the following command:
 ```
 python joint_train.py 
